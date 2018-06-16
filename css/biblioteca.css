@@ -1,0 +1,60 @@
+html,body {
+    height:100%;
+    width:100%;
+}
+header {
+    display:block;
+    background:#286af0;
+    padding:10px 0px;
+}
+section {
+    height: 50%;
+    width: 100%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 90px;
+    padding-top:15px;
+}
+footer {
+    position: relative;
+    margin-top: -50px;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+figure, nav {
+    display: table; margin: 0 auto;
+}
+li{
+    padding:2px;
+}
+/*CSS del menu*/
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu a{
+    height: 5px;
+    display: block;
+    padding: 2em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+}
+.menu a:hover {
+    background-color: #CC673B;
+}
+.menu ul li ul {
+    display: none;
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+}
+
